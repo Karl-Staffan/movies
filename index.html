@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Movie log</title>
+  </head>
+  <body>
+    <h1>Movie log</h1>
+    <form id="movieForm">
+      <label for="title">Title</label>
+      <input type="text" id="title" />
+
+      <label for="director">Director</label>
+      <input type="text" id="director" />
+
+      <label for="review">review</label>
+      <textarea id="review"></textarea>
+
+      <button id="addMovie" type="submit">Add movie</button>
+    </form>
+
+    <p id="error"></p>
+    <button id="listBtn">Show all movies</button>
+    <button id="removeLastBtn">Remove last</button>
+    <button id="titlesBtn">Show titles</button>
+    <button id="clearBtn">Clear all</button>
+  </body>
+</html>
